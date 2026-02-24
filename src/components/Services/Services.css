@@ -1,0 +1,107 @@
+.services-section-large {
+    padding: 6rem 1.5rem;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.services-header-large {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.services-subtitle {
+    color: var(--secondary);
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.services-title {
+    font-size: 1.875rem;
+    font-weight: 900;
+    color: var(--text-main);
+}
+
+@media (min-width: 768px) {
+    .services-title {
+        font-size: 2.25rem;
+    }
+}
+
+.services-grid-large {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.feature-card-large {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    /* shadow-sm */
+    border: 1px solid rgba(47, 127, 52, 0.05);
+    transition: background-color 0.3s ease;
+}
+
+.feature-icon-wrapper-large {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgba(47, 127, 52, 0.1);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.feature-icon-wrapper-large span {
+    font-size: 1.875rem;
+    color: var(--primary);
+    transition: color 0.3s ease;
+}
+
+.feature-card-large:hover .feature-icon-wrapper-large {
+    background-color: var(--primary);
+}
+
+.feature-card-large:hover .feature-icon-wrapper-large span {
+    color: var(--white);
+}
+
+.feature-card-large h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.feature-card-large p {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+@media (min-width: 640px) {
+    .services-grid-large {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .services-grid-large {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .services-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .services-grid-large {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

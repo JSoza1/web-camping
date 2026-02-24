@@ -1,0 +1,138 @@
+.header-container {
+    background-color: rgba(253, 252, 248, 0.95);
+    /* cream with opacity */
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(47, 127, 52, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    backdrop-filter: blur(12px);
+}
+
+.header-content {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary);
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.025em;
+}
+
+.logo-icon {
+    font-size: 1.875rem;
+}
+
+.main-nav {
+    display: none;
+    gap: 2rem;
+}
+
+.main-nav a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-main);
+    transition: var(--transition);
+}
+
+.main-nav a:hover {
+    color: var(--primary);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    margin-right: -1rem;
+}
+
+.hidden-toggle {
+    display: none;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.menu-icon,
+.close-icon {
+    font-size: 1.875rem;
+}
+
+.close-icon {
+    display: none;
+}
+
+.hidden-toggle:checked~.menu-toggle .menu-icon {
+    display: none;
+}
+
+.hidden-toggle:checked~.menu-toggle .close-icon {
+    display: block;
+}
+
+.mobile-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-main);
+    border-bottom: 1px solid rgba(47, 127, 52, 0.1);
+    padding: 0 1.5rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+    /* Smooth animation properties */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 700;
+    gap: 1.5rem;
+
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.hidden-toggle:checked~.mobile-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    padding: 1.5rem;
+    max-height: 500px;
+    /* Arbitrary value for animation */
+}
+
+.mobile-menu a {
+    color: var(--text-main);
+}
+
+@media (min-width: 1024px) {
+    .main-nav {
+        display: flex;
+    }
+
+    .header-actions {
+        display: none;
+    }
+}
