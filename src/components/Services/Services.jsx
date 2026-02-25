@@ -8,7 +8,9 @@ const Services = () => {
         { icon: 'wifi', title: 'WiFi', desc: 'Conexión inalámbrica disponible en las áreas comunes.' },
         { icon: 'cabin', title: 'Dormis', desc: 'Habitaciones sencillas y confortables para quienes no traen carpa.' },
         { icon: 'security', title: 'Seguridad', desc: 'Vigilancia y acceso controlado para una estadía tranquila.' },
-        { icon: 'electric_bolt', title: 'Electricidad', desc: 'Tomas de corriente en cada parcela y buena iluminación.' }
+        { icon: 'electric_bolt', title: 'Electricidad', desc: 'Tomas de corriente en cada parcela y buena iluminación.' },
+        { icon: 'pets', title: 'Pet Friendly', desc: 'Tus mascotas son bienvenidas a disfrutar de la naturaleza con vos.' },
+        { icon: 'storefront', title: 'Proveeduría', desc: 'Almacén surtido con leña, hielo, bebidas y artículos básicos.' }
     ];
 
     return (
