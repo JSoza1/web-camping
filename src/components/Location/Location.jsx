@@ -7,7 +7,7 @@ const Location = () => {
                 <div className="location-info">
                     <div className="location-header">
                         <h2>Ingreso y Ubicación</h2>
-                        <p>Todo lo que necesitas saber para tu llegada al camping.</p>
+                        <p>Todo lo que necesitas saber para tu llegada al Camping El Lago.</p>
                     </div>
 
                     <div className="info-cards">
@@ -27,7 +27,7 @@ const Location = () => {
                             <span className="material-symbols-outlined info-icon">key</span>
                             <div className="info-details">
                                 <h4>Información Importante</h4>
-                                <p>Durante la permanencia el camping estará abierto las 24hs.</p>
+                                <p>Durante la permanencia el Camping El Lago estará abierto las 24hs.</p>
                             </div>
                         </div>
 

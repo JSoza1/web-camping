@@ -6,9 +6,9 @@ const About = () => {
             <div className="about-container">
                 <div className="about-text-content">
                     <h3 className="about-subtitle">Bienvenidos</h3>
-                    <h2 className="about-title">Nuestro camping</h2>
+                    <h2 className="about-title">Nuestro Camping El Lago</h2>
                     <p className="about-desc">
-                        En Camping tu nombre, nos dedicamos a ofrecerte una experiencia auténtica. Nuestra ubicación
+                        En Camping El Lago, nos dedicamos a ofrecerte una experiencia auténtica. Nuestra ubicación
                         privilegiada te brinda una <strong>cercanía única al río</strong> en un entorno natural ideal para descansar.
                         Nuestras instalaciones se encuentran abiertas todo el año para que puedas disfrutar de la naturaleza en cualquier momento.
                     </p>

@@ -14,7 +14,7 @@ const Hero = () => {
 
             <div className="hero-content">
                 <h2 className="hero-title">
-                    Escápate a la naturaleza en Camping tu nombre
+                    Escápate a la naturaleza en Camping El Lago
                 </h2>
                 <p className="hero-subtitle">
                     Un refugio de paz y desconexión total, abierto todo el año, a metros del río y en pleno entorno natural.

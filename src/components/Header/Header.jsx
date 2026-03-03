@@ -8,11 +8,11 @@ const Header = () => {
             <div className="header-content">
                 <div className="logo">
                     <span className="material-symbols-outlined logo-icon">forest</span>
-                    <h1>Camping tu nombre</h1>
+                    <h1>Camping El Lago</h1>
                 </div>
                 <nav className="main-nav">
                     <a href="#inicio">Inicio</a>
-                    <a href="#presentacion">Nuestro Camping</a>
+                    <a href="#presentacion">Nuestro Camping El Lago</a>
                     <a href="#servicios">Servicios</a>
                     <a href="#galeria">Galería</a>
                     <a href="#reviews">Reseñas</a>
@@ -32,7 +32,7 @@ const Header = () => {
                     </label>
                     <div className="mobile-menu">
                         <a href="#inicio" onClick={() => setIsMenuOpen(false)}>Inicio</a>
-                        <a href="#presentacion" onClick={() => setIsMenuOpen(false)}>Nuestro Camping</a>
+                        <a href="#presentacion" onClick={() => setIsMenuOpen(false)}>Nuestro Camping El Lago</a>
                         <a href="#servicios" onClick={() => setIsMenuOpen(false)}>Servicios</a>
                         <a href="#galeria" onClick={() => setIsMenuOpen(false)}>Galería</a>
                         <a href="#reviews" onClick={() => setIsMenuOpen(false)}>Reseñas</a>

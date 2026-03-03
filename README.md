@@ -1,11 +1,11 @@
-# ⛺ Web de Camping
+# ⛺ Web de Camping El Lago
 
 > **Landing Page Moderna para un Complejo de Camping.**
 
 ---
 
 ## 📖 Descripción
-Este proyecto es una **Landing Page** diseñada para "Camping", un espacio donde conectar con la naturaleza de forma cómoda y amena.
+Este proyecto es una **Landing Page** diseñada para "Camping El Lago", un espacio donde conectar con la naturaleza de forma cómoda y amena.
 El diseño busca transmitir **calma, aventura y conexión**, mediante una estética limpia que evoca la naturaleza, fotografías inmersivas y un flujo de navegación intuitivo. Su objetivo principal es invitar al usuario a disfrutar de una escapada relajante.
 
 ### Características Principales y Técnicas:
@@ -53,7 +53,7 @@ src/
 
 ## 🔗 Visitar Sitio
 Puedes ver el proyecto en funcionamiento aquí:
-👉 **[wcamping.vercel.app](https://wcamping.vercel.app/)**
+👉 **[camping-el-lago.vercel.app](https://camping-el-lago.vercel.app/)**
 
 ---
 

@@ -15,7 +15,7 @@ const Footer = () => {
                     </div>
 
                     <div className="footer-bottom">
-                        <p>&copy; {new Date().getFullYear()} Camping tu nombre. Todos los derechos reservados.</p>
+                        <p>&copy; {new Date().getFullYear()} Camping El Lago. Todos los derechos reservados.</p>
                     </div>
                 </div>
                 <div className="footer-credits">
